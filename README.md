@@ -1,16 +1,12 @@
-## Hi there 👋
-
-<!--
-**jetsepet/Jetsepet** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<form action="https://formspree.io/f/{form_id}" method="POST">
+  <label for="name">Adınız:</label>
+  <input type="text" name="name" id="name" required>
+  
+  <label for="email">E-posta:</label>
+  <input type="email" name="_replyto" id="email" required>
+  
+  <label for="message">Mesajınız:</label>
+  <textarea name="message" id="message" required></textarea>
+  
+  <button type="submit">Gönder</button>
+</form>
